@@ -8,3 +8,10 @@ for i in range(1, 6):
 promedio = suma_notas / 5
 print(f"estudiante: {nombre}")
 print(f"promedio final: {promedio:.2f}")
+
+if promedio >= 4.5:
+    print("estado: Excelente")
+elif promedio >= 3.0:
+    print("estado: aprobado")
+else:
+    print("estado: reprobado")
