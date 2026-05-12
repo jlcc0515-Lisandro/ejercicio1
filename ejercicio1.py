@@ -1,5 +1,10 @@
 continuar = "si"
 
+# --- CAMBIO DEL PASO 5 ---
+print("***************************************")
+print("*  BIENVENIDO AL SISTEMA DE NOTAS     *")
+print("***************************************")
+
 while continuar == "si":
     print("--- sistema de evaluación academica ---")
     nombre = input("nombre del estudiante: ")
